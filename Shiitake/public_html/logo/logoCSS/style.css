@@ -1,0 +1,18 @@
+header{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #E8E0D8;
+    width: 85%;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+}
+.logo1{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 60px;
+    font-family: 'Poiret One', cursive;
+}
