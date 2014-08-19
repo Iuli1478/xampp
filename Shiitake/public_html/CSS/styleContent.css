@@ -1,0 +1,17 @@
+header{
+    margin: 0 auto;
+    background-image: url('../IMG/Complete-bg-backround.png');
+    background-repeat: repeat-y;
+    width: 85%;
+    margin-top: 20px;
+}
+section{
+    background-image: url('../IMG/Complete-bg-backround.png');
+    width: 85%;
+    margin: 0 auto;
+    height: 300px;
+    margin-top: 20px;
+}
+body{
+   background-image: url('../IMG/07_edit.png');
+}

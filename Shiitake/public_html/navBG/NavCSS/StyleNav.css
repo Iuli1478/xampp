@@ -1,12 +1,3 @@
-body{
-    background-color: #E0E0E0;
-}
-section{
-    background-color: #E8E0D8;
-    width: 85%;
-    margin: 0 auto;
- 
-}
 .stalk{
     width: 25px;
     height: 20px;
@@ -23,9 +14,9 @@ section{
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
     width: 120px;
-    height: 50px;
-    margin-left: 50px;
-    margin-top: 40px;
+    height: 48px;
+    margin-left: 192px;
+    margin-top: -154px;
     transition: all .3s ease;
     position: absolute;
 }
@@ -71,11 +62,11 @@ section{
     margin-top: -1px; 
 }
 .tree{
-    width: 710px;
+    width: 660px;
     height: 20px;
     border:1px solid black;
-    margin-top: 80px;
-    margin-left: 19%;
+    margin-top: -114px;
+    margin-left: 30%;
     border-radius: 30px;
     background-color: brown;
 }
@@ -174,8 +165,8 @@ section{
     border-style:hidden;
     width: 100px;
     height: 30px;
-    margin-left: 60px;
-    margin-top: 40px;
+    margin-left: 210px;
+    margin-top: -160px;
     transition: all .3s ease;
 }
 
@@ -246,7 +237,7 @@ section{
 }
 .NavUl li{
     display: inline-block;
-    padding-left: 150px;
+    padding-left: 136px;
 }
 nav{
     margin-left: -400px;
