@@ -77,7 +77,10 @@
                 <div class="point7"></div>
             </div>
         </li>
-        <div class="tree"></div>
+        <li>
+            <div class="tree"></div>
+            <div class="treeLeft"></div>
+        </li>
     </ul>
-    <div class="treeLeft"></div>
+    
 </nav>
