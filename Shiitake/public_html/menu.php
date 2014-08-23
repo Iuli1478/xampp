@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Шийтаке</title>
+        <title>Меню</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="navBG/NavCSS/StyleNav.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/styleContent.css" rel="stylesheet" type="text/css"/>
-        <style>
-            #spongeTop{
+                <style>
+            #spongeTopM{
                 background-color: #AC8359;
                 cursor: pointer;
                 border-top-left-radius: 100px;
@@ -19,7 +19,7 @@
                 margin-top: -160px;
                 transition: all .3s ease;
             }
-            #stalk{
+            #stalkM{
                 border-style:hidden;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -29,14 +29,14 @@
                 height: 30px;
                 background-color:#FFFFE0;  
             }
-            #text1{
+            #text2M{
                 margin-top:-16px;
-                margin-left:22px
+                margin-left:29px
             }
-            #point1, #point2, #point3, #point4, #point5, #point6, #point7 {
+            #point1M, #point2M, #point3M, #point4M, #point5M, #point6M, #point7M {
                 display:block; 
             }
-            #firstTopI, #secondTopI{
+            #firstTopM, #secondTopM{
                 border-style:none;
             }
         </style>
@@ -44,25 +44,16 @@
     <body>
         <header>
             <div class="header">
-            <?php   
+            <?php
                 require ("./logo/logoBG/logo.php");
             ?>
             <?php
-            require_once 'Mobile_Detect.php';
-            $detect = new Mobile_Detect;
-            if($detect->isiOS()){
-                echo 'iOS';
-            }
-            else {
-                require("./navBG/navBG.php");
-            } 
+                 require("./navBG/navBG.php")
             ?>
             </div>
         </header>
         <section>
-            <?php
-                require ("./ContentText/shiitake/BG/shiitakeBG.php");
-            ?>
+        Менюто на ресторанта
         </section>
         <footer>
             <?php

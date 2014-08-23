@@ -7,7 +7,7 @@
         <link href="navBG/NavCSS/StyleNav.css" rel="stylesheet" type="text/css"/>
         <link href="CSS/styleContent.css" rel="stylesheet" type="text/css"/>
         <style>
-            #spongeTop{
+            #spongeTopA{
                 background-color: #AC8359;
                 cursor: pointer;
                 border-top-left-radius: 100px;
@@ -19,7 +19,7 @@
                 margin-top: -160px;
                 transition: all .3s ease;
             }
-            #stalk{
+            #stalkA{
                 border-style:hidden;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
@@ -29,14 +29,14 @@
                 height: 30px;
                 background-color:#FFFFE0;  
             }
-            #text1{
+            #text3A{
                 margin-top:-16px;
                 margin-left:22px
             }
-            #point1, #point2, #point3, #point4, #point5, #point6, #point7 {
+            #point1A, #point2A, #point3A, #point4A, #point5A, #point6A, #point7A {
                 display:block; 
             }
-            #firstTopI, #secondTopI{
+            #firstTopA, #secondTopA{
                 border-style:none;
             }
         </style>
@@ -61,7 +61,7 @@
         </header>
         <section>
             <?php
-                require ("./ContentText/shiitake/BG/shiitakeBG.php");
+                require ("./ContentText/aboutUs/BG/aboutUsBG.php");
             ?>
         </section>
         <footer>
