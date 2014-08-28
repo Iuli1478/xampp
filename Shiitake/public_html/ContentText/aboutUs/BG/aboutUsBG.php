@@ -1,4 +1,6 @@
-<img class="aboutUsIMG1" src="IMG/aboutUsImg1.jpg" alt=""/>
+<div class="aboutUsIMG1Div">
+    <img class="aboutUsIMG1" src="IMG/aboutUsImg1.jpg" alt=""/>
+</div>
 <div class="aboutUsT1">
     Фермата шийтаке е създадена през 2013г в екологчно чист високопланински райо – село „Стрезимировци“
 Вълшебното разстение се отглежда по традиционна японска технология върху пънчета от широколистна дървесина. 

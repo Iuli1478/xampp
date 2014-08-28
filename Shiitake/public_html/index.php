@@ -55,6 +55,7 @@
             }
             else {
                 require("./navBG/navBG.php");
+                require("./navBG/navBGMobile.php");
             } 
             ?>
             </div>

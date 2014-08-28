@@ -1,4 +1,4 @@
-<nav>
+<nav class="navClasic">
     <ul class="NavUl">
         <li>
             <a href="index.php">

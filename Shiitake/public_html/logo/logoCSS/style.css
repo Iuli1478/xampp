@@ -12,3 +12,9 @@
 .logo1:hover{
     cursor: pointer;
 }
+.imgLogo{
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
