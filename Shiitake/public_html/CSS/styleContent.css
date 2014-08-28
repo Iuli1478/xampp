@@ -140,9 +140,9 @@ body{
     .siitakeT2{
         width: 670px;
         text-align: justify;
-        margin-left: 36%;
         padding-bottom: 20px;
-        margin-top:-280px
+        margin-top:-280px;
+        float: right;
     }
 }
 .siitakeT2{
