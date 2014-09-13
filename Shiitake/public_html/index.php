@@ -23,7 +23,7 @@
                 border-style:hidden;
                 border-bottom-left-radius: 10px;
                 border-bottom-right-radius: 10px;
-                margin-top: 26px;
+                margin-top: 28px;
                 margin-left: 35px;
                 width: 30px;
                 height: 30px;

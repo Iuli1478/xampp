@@ -52,35 +52,38 @@
             </a>
         </li>
          <li>
-            <div class="spongeTop">
-                <div class="text4">Контакти</div>
-                <div class="stalk"></div>
-                <div class="firstTop" id="firstTop"></div>
-                <div class="secondTop" id="secondTop"></div>
-                <div class="point1"></div>
-                <div class="point2"></div>
-                <div class="point3"></div>
-                <div class="point4"></div>
-                <div class="point5"></div>
-                <div class="point6"></div>
-                <div class="point7"></div>
-            </div>
+            <a href="contacts.php">
+                    <div class="spongeTop" id="spongeTopC">
+                    <div class="text4" id="text4C">Контакти</div>
+                    <div class="stalk" id="stalkC"></div>
+                    <div class="firstTop" id="firstTopC"></div>
+                    <div class="secondTop" id="secondTopC"></div>
+                    <div class="point1" id="point1C"></div>
+                    <div class="point2" id="point2C"></div>
+                    <div class="point3" id="point3C"></div>
+                    <div class="point4" id="point4C"></div>
+                    <div class="point5" id="point5C"></div>
+                    <div class="point6" id="point6C"></div>
+                    <div class="point7" id="point7C"></div>
+                </div>
+            </a>
         </li>
          <li>
-            <div class="spongeTop">
-                <div class="text5">Резервации</div>
-                <div class="stalk"></div>
-                <div class="firstTop" id="firstTop"></div>
-                <div class="secondTop" id="secondTop"></div>
-                <div class="point1"></div>
-                <div class="point2"></div>
-                <div class="point3"></div>
-                <div class="point4"></div>
-                <div class="point5"></div>
-                <div class="point6"></div>
-                <div class="point7"></div>
-            </div>
-        </li>
+            <a href="reservations.php">
+                <div class="spongeTop" id="spongeTopR">
+                    <div class="text5" id="text5R">Резервации</div>
+                    <div class="stalk" id="stalkR"></div>
+                    <div class="firstTop" id="firstTopR"></div>
+                    <div class="secondTop" id="secondTopR"></div>
+                    <div class="point1" id="point1R"></div>
+                    <div class="point2" id="point2R"></div>
+                    <div class="point3" id="point3R"></div>
+                    <div class="point4" id="point4R"></div>
+                    <div class="point5" id="point5R"></div>
+                    <div class="point6" id="point6R"></div>
+                    <div class="point7" id="point7R"></div>
+                </div>
+            </a>
         <li>
             <div class="tree"></div>
             <div class="treeLeft"></div>
