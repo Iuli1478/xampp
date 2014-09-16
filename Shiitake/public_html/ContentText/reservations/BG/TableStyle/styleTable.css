@@ -1,0 +1,53 @@
+@media screen and (max-width: 1249px){
+    .scheme{
+       display: none;
+    }
+}
+@media screen and (min-width: 1249px){
+    .scheme{
+        text-align: left;
+        width: 100%;
+        height: 500px;
+        border: 1px solid black;
+    }
+    .table2 {
+       position: relative;
+       top: 5em;
+       left: 5em;
+    }
+    .table3 {
+       position: relative;
+       top: 8em;
+       left: 31em;
+    }
+    .table4 {
+       position: relative;
+       top: 11em;
+       left: 14em;
+    }
+    .table5 {
+       position: relative;
+       top: 14em;
+       left: 31em;
+    }
+    .table6 {
+       position: relative;
+       top: 16em;
+       left: -6em;
+    }
+    .table7 {
+       position: relative;
+       top: 2em;
+       left: 6em;
+    }
+    .table8 {
+       position: relative;
+       top: 5em;
+       left: 10em;
+    }
+    .table9 {
+       position: relative;
+       top: 18em;
+       left: 20em;
+    }
+}

@@ -1,21 +1,20 @@
-section{
-    background-image: url('../IMG/Complete-bg-backround.png');
-    width: 85%;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: center;
-}
-footer{
-    background-image: url('../IMG/Complete-bg-backround.png');
-    width: 85%;
-    margin: 0 auto;
-    height: 150px;
-    margin-top: 20px;
-}
 body{
    background-image: url('../IMG/07_edit.png');
 }
 @media screen and (max-width: 1249px){
+    section{
+        background-image: url('../IMG/Complete-bg-backround.png');
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    footer{
+        background-image: url('../IMG/Complete-bg-backround.png');
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
    .navClasic{
         display: none;
    }
@@ -126,6 +125,21 @@ body{
     }
 }
 @media screen and (min-width: 1250px){ 
+    section{
+        background-image: url('../IMG/Complete-bg-backround.png');
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 71em;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    footer{
+        background-image: url('../IMG/Complete-bg-backround.png');
+        width: 71em;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
     .siitakeT1{
         width: 37%;
         margin-left: 5%;
@@ -145,8 +159,7 @@ body{
         margin: 0 auto;
         background-image: url('../IMG/Complete-bg-backround.png');
         background-repeat: repeat-y;
-        width: 85%;
-        height: 217px;
+        width: 71em;
         margin-top: 20px;
    }
    .navMobile{
@@ -237,16 +250,85 @@ body{
     .allMap{
         margin-left: 36em;
     }
-    table, th, td {
+    contactTable, th, td {
         border: 1px solid black;
     }
+    .schemeForm{
+        display: none;
+    }
+}
+.reservationInput{
+    width: 18em;
+    height: 3em;
+    margin: 5px;
+    background-color: #d81f32;
+    border: none;
+    transition: all .3s ease;
+}
+.reservationInput:focus{
+    width: 18em;
+    height: 4em;
+    background-color: #E46270;
+}
+.reservationForm{
+    border: none;
+    text-align: right;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.reservationForm tr td{
+    border: none;
+}
+.reservationH1{
+    font-family: Stylo;
+}
+.reservationSubmit{
+   height: 3em;
+   background-color: #d81f32;
+   border: none;
+   border-radius: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   transition: all .3s ease;
+}
+.reservationSubmit:hover{
+   cursor: pointer;
+   font-size: 30px;
+   font-weight: bold;
+}
+#errorPhone, #errorName, #errorFamily{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+#format, #formatData{
+    text-align: center;
+    font-size: 11px;
+}
+#errorTime, #errorData{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+#emptyData{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.formDiv{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #5e3225;
+    text-align: center;
+}
+.formDiv1{
+    width: 79%;
+    margin: 0 auto;
 }
 .siitakeT2{
     text-align: justify;
 }
-.scheme{
-    text-align: left;
-    width: 100%;
-    height: 500px;
-    border: 1px solid black;
-}
+
